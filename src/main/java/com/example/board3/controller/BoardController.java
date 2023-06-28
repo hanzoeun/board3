@@ -138,7 +138,7 @@ public class BoardController {
 	
 	
 	//수정페이지 보여줌
-		@RequestMapping(value = "/updated", method = RequestMethod.GET)
+		@RequestMapping(value = "/updated1", method = RequestMethod.GET)
 		public String updated(HttpServletRequest request, Model model) {
 			
 			try {
